@@ -1,0 +1,62 @@
+#A=int(input("enter the age of person="))
+#if A>=18:
+#    print("you can vote")
+#else:
+#    print("no you can not vote jao yahan se ")   
+
+####2nd tes--even odd ##
+
+#A=int(input("please enter the number="))
+#if A%2==0:
+#    print("even")
+#else:
+#    print("odd")    
+
+##3rd test---divisible by 7 or not##
+
+#A=int(input("please enter the number="))
+#if A%7==0:
+ #   print("7 se divisible hai ye to")
+#else:
+ #   print("no ye nhi hai")    
+
+##4th test  print hii if number is multiple of five otherwise print 5
+#a=int(input("please enter the number="))
+#if a%5==0:
+ #   print("Hello")
+#else:
+#    print("bye")    
+
+###** imp que---electricity bill ---1st 100 unit ---free, next 100 unit ---5rupeey unit,after 200 --10 rupeey unit
+#amount=0
+#num=int(input("enter the units = "))    
+#if num<=100:
+ #   print("it is free ")
+#elif num>100 and num<=200:
+ #   amount=(num-100)*5 
+#elif num>200:
+#     amount=500+(num-200)*10
+#print("amount to pay=",amount)     
+
+## 4th test write the last digit of the number 
+#num=int(input("etner the number="))
+#print("last number",num%10)
+
+### 5th test last digit is divisible by 3 or not
+#num=int(input("please write number"))
+#result=num%10
+#if result%3==0:
+#    print("it is divisible")
+#else:
+#    print("not divisible")    
+
+####test 6th accept % from user and write grade accordingly >90--A,>80 and <=90 ---B, >=60 and <=80--c, below60--d
+#marks=int(input("please enter marks="))
+#if marks>90:
+ #   print("Grade A")
+#elif marks<=90 and marks>80:
+#    print("Greade B")
+#elif marks<=80 and marks>=60:
+#    print("grade c")
+#else:
+#    print("grade fail")
